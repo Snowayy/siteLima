@@ -1,0 +1,82 @@
+*{
+
+    width: auto;
+    height: auto;
+    background-color: antiquewhite;
+
+}
+
+body{
+
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-align-last: center;
+
+}
+
+.header, .formacao, .experiencia, .preco, .midia, .footer{
+
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px;
+
+}
+
+.header{
+
+    display: inline-block;
+    text-align:justify;
+    text-align-last: center;
+
+}
+
+.header > p{
+
+    margin-left: 10px;
+
+}
+
+.header > img{
+
+    border: 2px;
+    border-style: dashed;
+    float: left;
+
+}
+
+.cards > img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px;
+
+}
+
+.preco {
+
+    display: inline-block;
+    align-items: center;
+
+}
+.preco > table{
+
+    position: relative;
+
+}
+
+.footer > a{
+
+    color: blue;
+    text-decoration: dotted;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.footer>a:hover{
+
+    color: rgb(0, 0, 117);
+
+}
